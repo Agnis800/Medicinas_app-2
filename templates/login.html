@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Admin tools - WhirlAid</title>
+	<style>
+		input[type=submit] {
+			background-color: #448AFF;
+			color: white;
+			border-radius: 20px;
+		}
+
+		h2 {
+			color: #448AFF;
+		}
+	</style>
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="./">HOME</a></li>
+			<li><a href="./find">FIND DOCTORS</a></li>
+			<li><a href="./appointment">APPOINTMENTS</a></li>
+			<li><a href="#" class="active">ADMIN TOOLS</a></li>
+		</ul>
+	</nav>
+	<h2>Login</h2>
+	<form action="./add_hospital">
+		<label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br></br>
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="password"><br></br>
+        <input type="submit" value="Submit">
+        
+    </body>
+</html>
